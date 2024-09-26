@@ -1,4 +1,4 @@
-
+#best to use it in colab or in GPU
 import logging
 import os
 import moviepy.editor as mpe
