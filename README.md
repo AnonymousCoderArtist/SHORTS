@@ -17,7 +17,7 @@ This Python script allows you to download, trim, and add subtitles to YouTube vi
 * **Python 3.7+:** Make sure you have Python installed on your system.
 * **Required Libraries:** 
     ```bash
-    pip install moviepy pytube requests rich utube 
+    pip install moviepy pytube requests rich
     ```
 
 ### 2. Running the Script
