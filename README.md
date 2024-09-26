@@ -1,6 +1,6 @@
-# 🎬 YouTube Video Trimmer & Subtitler ✂️
+# 🎬 Youtube Short Converter ✂️
 
-This Python script allows you to download, trim, and add subtitles to YouTube videos! 
+This Python script allows you to download, trim, and add subtitles to YouTube videos and convert it into a short! 
 
 ## ✨ Features
 
@@ -24,12 +24,12 @@ This Python script allows you to download, trim, and add subtitles to YouTube vi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/youtube-video-trimmer.git 
-   cd youtube-video-trimmer
+   git clone https://github.com/AnonymousCoderArtist/SHORTS.git
+   cd SHORTS
    ```
 2. **Run the script:**
    ```bash
-   python utube_short.py
+   python utbe_short.py
    ```
 3. **Provide Input:**
    * Enter the YouTube video URL.
@@ -37,9 +37,9 @@ This Python script allows you to download, trim, and add subtitles to YouTube vi
 
 ### 3. Output
 
-* **Downloaded Video:** The full video will be downloaded to the `downloads` folder.
-* **Trimmed Video:** The trimmed video with subtitles will be saved to the `output` folder as `final_video.mp4`.
-* **Subtitle File:** The trimmed transcript in VTT format will be saved to the `output` folder as `subtitles.vtt`.
+* **Downloaded Video:** The full video will be downloaded to the cwd.
+* **Trimmed Video:** The trimmed video with subtitles will be saved to the cwd as `final_video.mp4`.
+* **Subtitle File:** The trimmed transcript in VTT format will be saved to the cwd as `subtitles.vtt`.
 
 ## ⚙️ Customization
 
@@ -52,7 +52,8 @@ This Python script allows you to download, trim, and add subtitles to YouTube vi
 * The script relies on external libraries like `moviepy`, `pytube`, `requests`, `rich`, and `utube`. Ensure they are installed correctly.
 * Transcripts are not available for all YouTube videos.
 * Subtitle timing might not be perfect in all cases due to variations in YouTube's transcript formatting.
-
+* I would suggest to use openai whisper in colab in GPU ot extract word to word transcription.
+  
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues.
